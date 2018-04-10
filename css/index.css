@@ -1,0 +1,397 @@
+@charset "utf-8";
+
+#banner {
+	margin-top: 60px;
+}
+
+.carousel-indicators li,
+.carousel-indicators .active {
+	background: lightgreen;
+}
+
+section {
+	margin: 0 auto;
+}
+
+section .fixed {
+	background: url(../images/fixed1.jpg) no-repeat center center /cover fixed;
+	width: 100%;
+	height: 350px;
+}
+
+section #linian p {
+	font-size: 36px;
+	line-height: 60px;
+	color: #555;
+	font-weight: bold;
+	padding-top: 75px;
+	text-align: center;
+}
+
+section #history {
+	width: 900px;
+	margin: 0 auto;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+}
+
+section #history h2 {
+	font-size: 24px;
+	color: #555;
+	line-height: 120px;
+	font-weight: 900;
+	text-align: center;
+}
+
+section #history p {
+	padding: 0 90px;
+	text-indent: 2em;
+	font-size: 14px;
+	color: #6b6a70;
+	line-height: 30px;
+	padding-bottom: 60px;
+	text-align: justify;
+}
+
+section #pro-stars {
+	text-align: center;
+}
+
+section #pro-stars .pro-tittle h2 {
+	font-size: 24px;
+	line-height: 60px;
+	color: #333;
+	font-weight: 600;
+	padding-top: 60px;
+}
+
+section #pro-stars .pro-tittle p {
+	font-size: 14px;
+	color: #555;
+	line-height: 40px;
+}
+
+section .ling i {
+	transform: rotate(45deg);
+	color: #5ab530;
+	font-size: 10px;
+	line-height: 88px;
+}
+
+section .ling {
+	width: 90px;
+	margin: 0 auto;
+	position: relative;
+}
+
+section .ling:before {
+	content: '';
+	display: block;
+	width: 60px;
+	height: 1px;
+	background: #e8e8e8;
+	position: absolute;
+	top: 50%;
+	left: 80px;
+}
+
+section .ling:after {
+	content: '';
+	display: block;
+	width: 60px;
+	height: 1px;
+	background: #e8e8e8;
+	position: absolute;
+	top: 50%;
+	right: 80px;
+}
+
+section .pro-list .pro-tab {
+	margin: 0;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+  align-content: center;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+section .pro-list .pro-tab li a {
+	display: block;
+	font-size: 14px;
+	color: #333;
+	padding: 10px 15px;
+	border: 1px solid transparent;
+	cursor: pointer;
+}
+
+section .pro-list .pro-tab li a.ac-tab {
+	border: 1px solid #5ab530;
+	color: #5ab530;
+}
+
+section .pro-list .pro-tab li a:hover,
+section .pro-list .pro-tab li a:focus {
+	text-decoration: none;
+}
+
+section .pro-list .pro-content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  align-content: center;
+	align-items: center;
+}
+
+section .pro-list .pro-content .item {
+	width: 30%;
+	padding: 20px 20px 40px;
+	border: 1px solid #ddd;
+	position: relative;
+	margin-bottom: 40px;
+	/*background: url(../images/stars.png) no-repeat right top;*/
+}
+
+section .pro-list .pro-content .item img {
+	width: 60%;
+	padding-top: 20px;
+	transition: all 0.3s;
+}
+
+section .pro-list .pro-content .item a:hover,
+section .pro-list .pro-content .item a:focus {
+	text-decoration: none;
+}
+
+section .pro-list .pro-content .item:hover > a > img {
+	padding-top: 0;
+	margin-bottom: 20px;
+}
+
+section .pro-list .pro-content .item-txt {
+	font-size: 14px;
+	color: #333;
+	line-height: 30px;
+	font-weight: 600;
+	padding-top: 10px;
+	text-align: center;
+}
+
+section .pro-list .view {
+	text-align: center;
+}
+
+section .pro-list .view a {
+	display: inline-block;
+	width: 158px;
+	height: 44px;
+	border: 2px solid #333;
+	font-size: 14px;
+	color: #393939;
+	line-height: 44px;
+	margin-top: 44px;
+	margin-bottom: 60px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+section .pro-list .view a:hover,
+section .pro-list .view a:focus {
+	text-decoration: none;
+	background: #5ab530;
+	border-color: #5ab530;
+	color: #fff;
+}
+
+section .blank {
+	width: 100%;
+	height: 180px;
+	background: #f2f3f8;
+}
+
+section #show {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  align-content: center;
+	align-items: center;
+	margin: 90px 0;
+}
+
+section #show .item-s {
+	width: 30%;
+	padding: 20px;
+	text-align: left;
+	border: 1px solid #ddd;
+}
+
+section #show .item-s h3 {
+	font-size: 18px;
+	color: #333;
+	line-height: 36px;
+
+}
+
+section #show .item-s img {
+	width: 100%;
+}
+
+section #show .item-s .more {
+	font-size: 12px;
+	color: #777;
+	line-height: 24px;
+	padding-top: 10px;
+}
+
+section #show .item-s .more:hover {
+	color: #333;
+	text-decoration: none;
+}
+
+section #show .video a {
+	position: relative;
+}
+
+section #show .video a img.control {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+section #contact {
+	width: 100%;
+	height: 350px;
+	background: #333;
+	text-align: center;
+}
+
+section #contact h4 {
+	font-size: 24px;
+	color: #fff;
+	font-weight: 600;
+	padding-top: 80px;
+	line-height: 48px;
+}
+
+section #contact p {
+	color: #fff;
+	line-height: 36px;
+}
+
+section #contact a {
+	display: inline-block;
+	color: #fff;
+	width: 160px;
+	height: 44px;
+	font-size: 14px;
+	background: #5ab530;
+	line-height: 44px;
+	border: 2px solid #333;
+	transition: all 0.3s;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+section #contact a.phcontact {
+	display: none;
+}
+
+section #contact a:hover {
+	background: transparent;
+	border-color: #5ab530;
+	color: #5ab530;
+	text-decoration: none;
+}
+
+footer {
+	width: 100%;
+}
+
+footer .copy {
+	margin: 60px auto;
+	text-align: center;
+	position: relative;
+}
+
+footer p {
+	font-size: 12px;
+	color: #333;
+	line-height: 30px;
+	margin: 0;
+}
+
+footer p:first-child {
+	color: #000;
+}
+
+
+@media screen and (max-width: 768px) {
+
+	#banner {
+		margin-top: 60px;
+ 	} 
+
+	.cont {
+		display: none;
+	}
+
+	section .pro-list .pro-content .item  {
+		width: 90%;
+		padding: 20px 20px 40px;
+	}
+
+	section #history {
+		width: 80%;
+		margin: 0 auto;
+	}
+	section #history p {
+		padding: 0;
+	}
+
+	section #show .item-s {
+		width: 90%;
+		padding: 20px;
+		margin-bottom: 20px;
+	}
+
+	section #contact a.pccontact {
+		display: none;
+	}
+
+	section #contact a.phcontact {
+		display: inline-block;
+	}
+
+	footer .copy {
+		width: 90%;
+	}
+
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+
+	#banner {
+		margin-top: 60px;
+ 	} 
+
+	.cont {
+		display: none;
+	}
+
+	section #history {
+		width: 80%;
+		margin: 0 auto;
+	}
+	section #history p {
+		padding: 0;
+	}
+
+}
